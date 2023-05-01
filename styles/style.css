@@ -1,0 +1,277 @@
+html {
+    font-size: 22px;
+   font-family: 'inter', 'fjalla one', sans-serif;
+   
+}
+
+* {
+    box-sizing: border-box;
+     overflow-x: hidden;
+     
+     
+   }
+
+   .section-heading {
+text-align: center;
+margin: 10px;
+
+   }
+    .color-section {
+      margin: 20px;
+      border: 3px solid black;
+      padding: 20px;
+    }
+.color-section h2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  
+}
+
+.color-pallete {
+    display: flex;
+    flex-direction: row;
+      width: 100%;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+   .primarycolor1 {
+    width: 250px;
+    height: 250px;
+        border-radius: 5px;
+        background-color: #21130d;
+   }
+   .primarycolor1 p {
+      text-align: center;
+      margin-top: 105px;
+      color: white;
+      font-size: 22px;
+      font-family: 'inter';
+      overflow: hidden;
+   }
+   .primarycolor2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    background-color: 
+    #eeeee4;
+   }
+   .primarycolor2 p {
+    text-align: center;
+    margin-top: 105px;
+    color: black;
+    font-size: 22px;
+    overflow: hidden;
+    font-family: 'inter';
+
+ }
+   .primarycolor3 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    background-color: #e28743;
+   }
+   .primarycolor3 p {
+    text-align: center;
+    margin-top: 105px;
+    color: white;
+    font-size: 22px;
+    overflow: hidden;
+    font-family: 'inter';
+ }
+
+   .color-pallete2 {
+    display: flex;
+    flex-direction: row;
+      width: 100%;
+    justify-content: space-around;
+    margin-bottom: 10px;
+   }
+
+   .secondarycolor1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    background-color: #DDDBF1;
+   }
+ 
+   .secondarycolor1 p {
+    text-align: center;
+    margin-top: 105px;
+    color: black;
+    font-size: 22px;
+    overflow: hidden;
+    font-family: 'inter';
+ }
+   .secondarycolor2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    background-color: #1318AC;
+   }
+   .secondarycolor2 p {
+    text-align: center;
+    margin-top: 105px;
+    color: white;
+    font-size: 22px;
+    overflow: hidden;
+    font-family: 'inter';
+ }
+   .secondarycolor3 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    background-color: #020018;
+   }
+   .secondarycolor3 p {
+    text-align: center;
+    margin-top: 105px;
+    color: white;
+    font-size: 22px;
+    overflow: hidden;
+    font-family: 'inter';
+ }
+   .divider {
+    padding: 0;
+    border: 1px solid lightgray;
+    margin: 0 auto;
+    width: 500px;
+
+   }
+   .font-section {
+      margin: 20px;
+      border: 3px solid black;
+      padding: 20px;
+   }
+   .font-section h2 {
+      text-decoration: underline;
+   }
+   .fjalla h2 {
+      text-decoration: underline;
+      font-family: 'fjalla one';
+      margin: 0 auto;
+      
+
+   } 
+   .text h2 {
+      text-decoration: none;
+   }
+  
+   .fjalla p  {
+text-align:  center;
+font-size: 1rem;
+font-family: 'fjalla one';
+
+   }
+.fjalla h2 {
+   font-family: 'fjalla one';
+
+}
+   .fjalla h3 {
+      font-family: 'fjalla one';
+   }
+
+   .inter {
+      text-decoration: none;
+      font-family: 'inter';
+   }
+   
+   .inter p{
+      text-decoration: none;
+      font-family: 'inter';
+      text-align: center;
+      font-size: 1rem;
+      font-family: 'inter';
+   }
+   .inter h2 {
+      font-family: 'inter';
+
+   }
+
+   .inter h3 {
+      font-family: 'inter';
+   }
+
+   .inter h1 {
+
+   }
+.textinter h2 {
+   text-decoration: none;
+}
+.button-section {
+   margin: 20px;
+      border: 3px solid black;
+      padding: 20px;
+}
+
+.buttons {
+   margin-top: 25px;
+   margin-bottom: 25px;
+   display: flex;
+   justify-content: space-around;
+}
+   .button1 {
+      width: 200px;
+      height: 60px;
+      border-radius: 10px;
+      background-color: #21130d;
+      overflow: hidden;
+      color: white;
+      font-family: 'inter';
+      cursor: pointer;
+      
+   }
+   .button1 p {
+      margin-top: 15px;
+      text-align: center;
+   }
+   .button2 {
+      width: 200px;
+      height: 60px;
+      border-radius: 10px;
+      background-color: #e28743;
+      overflow: hidden;
+      color: white;
+      font-family: 'inter';
+      cursor: pointer;
+   }
+   .button2 p {
+      margin-top: 15px;
+      text-align: center;
+
+   }
+   .button3 {
+      width: 200px;
+      height: 60px;
+      border-radius: 10px;
+      background-color: #DDDBF1;
+      overflow: hidden;
+      color: black;
+      cursor: pointer;
+   }
+
+   .button3 p {
+      margin-top: 15px;
+      text-align: center;
+   }
+
+   .button1:hover {
+      background-color: white;
+      color: #020018;
+      border: #020018 solid 3px;
+   }
+
+   .button2:hover {
+      background-color: white;
+      color:#e28743;
+      border: #e28743 solid 3px;
+   }
+
+   .button3:hover {
+      background-color: #020018;
+      color: white;
+      border: white solid 3px;
+   }
